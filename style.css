@@ -50,10 +50,6 @@ header h1 {
   background-color: #04151f;
 }
 
-.black p {
-  color: white;
-}
-
-.cyan p {
+.text-white p {
   color: white;
 }
