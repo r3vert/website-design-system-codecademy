@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* general styles */
+p {
+  color: black;
+  font-family: "Helvetica";
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Header Styles */
+header h1 {
+  margin: 10px;
+}
+
+/* Box Styles */
+.container {
+  border: 1px solid black;
+  margin: 25px auto;
+}
+
+/* Color Section */
+
+.colorBox {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.colorBox p {
+  padding-top: 27%;
+}
+
+.red {
+  background-color: #a50104;
+}
+
+.cyan {
+  background-color: #56a3a6;
+}
+
+.black {
+  background-color: #04151f;
+}
+
+.black p {
+  color: white;
+}
+
+.cyan p {
+  color: white;
+}
