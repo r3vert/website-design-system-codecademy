@@ -13,8 +13,11 @@ h1 {
   font-size: 2.5em;
 }
 
-h2 h3 {
-  
+h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
   font-family: "Roboto", sans-serif;
 }
 
@@ -35,7 +38,7 @@ header h1 {
   text-align: center;
   width: 200px;
   height: 200px;
-  margin: 10px;
+  margin: 10px 100px;
   border-radius: 50%;
   display: inline-block;
 }
@@ -63,3 +66,41 @@ header h1 {
 /* Font Section */
 /* Roboto: headings, Open Sans: paragraph text */
 /* TODO: Find good monospaced font*/
+
+.font-box {
+  display: inline-block;
+  margin: 20px 150px;
+  line-height: 200%;
+}
+.font-box h3:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.font-box h3:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.heading-font {
+  font-family: "Roboto";
+}
+.paragraph-font {
+  font-family: "Open Sans";
+}
+.code-font {
+  font-family: monospace;
+}
+.light-text {
+  font-weight: 300;
+}
+.bold-text {
+  font-weight: 700;
+}
