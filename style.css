@@ -11,16 +11,25 @@ p {
 h1 {
   font-family: "Roboto", sans-serif;
   font-size: 2.5em;
+  font-weight: 700;
 }
 
 h2 {
   font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 2em;
 }
 
 h3 {
   font-family: "Roboto", sans-serif;
 }
 
+p {
+  font-family: "Open Sans", sans-serif;
+}
+ul li {
+  font-family: "Open Sans", sans-serif;
+}
 /* Header Styles */
 header h1 {
   margin: 0 10px;
@@ -72,23 +81,7 @@ header h1 {
   margin: 20px 150px;
   line-height: 200%;
 }
-.font-box h3:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #ffffff;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
 
-.font-box h3:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
 .heading-font {
   font-family: "Roboto";
 }
@@ -104,3 +97,13 @@ header h1 {
 .bold-text {
   font-weight: 700;
 }
+/* Heading Section */
+.heading-box {
+  display: inline-block;
+  margin: 50px 150px;
+  line-height: 200%;
+}
+.main-text {
+  line-height: 225%;
+}
+
